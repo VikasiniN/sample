@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form >
+<table>
+    
+    <tr>
+            <td>
+                <label>First name</label>
+            </td>
+    
+               <td> 
+                   <input type="text" id="fname" required>
+                </td>
+            
+        </tr>
+    <tr>
+        <td>
+            <label>Last name</label>
+        </td>
+
+           <td> 
+               <input type="text" id="lname" required>
+            </td>
+        
+    </tr>
+    <tr>
+            <td>
+                <label>Phone number</label>
+            </td>
+    
+               <td> 
+                   <input type="text" id="ph" required>
+                </td>
+            
+        </tr>
+        <tr>
+                <td>
+                    <label>Email id</label>
+                </td>
+        
+                   <td> 
+                       <input type="email" id="email" required>
+                    </td>
+                
+            </tr>
+            <tr>
+                <td><label>DOB</label></td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td><select name="deg">
+                    <option name="">--select--</option>
+                    <option name="BE">BE</option>
+                    <option name="BTECH">BTECH</option>
+                    <option name="ME">ME</option>
+                    <option name="MTECH">MTECH</option>
+                    <option name="M.Sc">M.Sc</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio"  name="gender" value="male">male
+                <input type="radio"  name="gender" value="female">female</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+</table>
+    </form>
+</body>
+</html>
